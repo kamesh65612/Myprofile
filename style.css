@@ -145,6 +145,14 @@ p>span>span{
 }
 .card{
     background: white;
+    margin-bottom: 2px;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+.card1{
+    background: #f0f0f0;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
@@ -198,7 +206,7 @@ card h3 {
     display: block;
     margin-left: 15%;
     margin-top: 30px;
-    border-radius: 80px 80px 80px 80px;
+    border-radius: 100px;
     background-color: transparent;
 }
 header {
